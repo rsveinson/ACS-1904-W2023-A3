@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.4.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Student" id="Student0">
+    <void property="GPA">
+     <double>3.65</double>
+    </void>
+    <void property="courses">
+     <void method="add">
+      <object class="Course" id="Course0">
+       <void property="courseName">
+        <string>Potions II</string>
+       </void>
+       <void property="courseNumber">
+        <string>WIZ-2666</string>
+       </void>
+       <void property="instructor">
+        <object class="Instructor" id="Instructor0">
+         <void property="courses">
+          <void method="add">
+           <object idref="Course0"/>
+          </void>
+         </void>
+         <void property="degree">
+          <string>M.Sc.</string>
+         </void>
+         <void property="firstName">
+          <string>Severus</string>
+         </void>
+         <void property="lastName">
+          <string>Snape</string>
+         </void>
+        </object>
+       </void>
+       <void property="students">
+        <void method="add">
+         <object class="Student" id="Student1">
+          <void property="GPA">
+           <double>4.05</double>
+          </void>
+          <void property="courses">
+           <void method="add">
+            <object idref="Course0"/>
+           </void>
+          </void>
+          <void property="firstName">
+           <string>Cho</string>
+          </void>
+          <void property="lastName">
+           <string>Chiang</string>
+          </void>
+          <void property="year">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Student" id="Student2">
+          <void property="GPA">
+           <double>4.5</double>
+          </void>
+          <void property="courses">
+           <void method="add">
+            <object idref="Course0"/>
+           </void>
+           <void method="add">
+            <object class="Course" id="Course1">
+             <void property="courseName">
+              <string>Transfiguration</string>
+             </void>
+             <void property="courseNumber">
+              <string>WIZ-2989</string>
+             </void>
+             <void property="instructor">
+              <object class="Instructor" id="Instructor1">
+               <void property="courses">
+                <void method="add">
+                 <object idref="Course1"/>
+                </void>
+               </void>
+               <void property="degree">
+                <string>Ph.D.</string>
+               </void>
+               <void property="firstName">
+                <string>Minerva</string>
+               </void>
+               <void property="lastName">
+                <string>McGonigal</string>
+               </void>
+              </object>
+             </void>
+             <void property="students">
+              <void method="add">
+               <object idref="Student2"/>
+              </void>
+              <void method="add">
+               <object idref="Student0"/>
+              </void>
+              <void method="add">
+               <object class="Student" id="Student3">
+                <void property="GPA">
+                 <double>3.9</double>
+                </void>
+                <void property="courses">
+                 <void method="add">
+                  <object idref="Course1"/>
+                 </void>
+                </void>
+                <void property="firstName">
+                 <string>Ginny</string>
+                </void>
+                <void property="lastName">
+                 <string>Weasley</string>
+                </void>
+                <void property="year">
+                 <int>1</int>
+                </void>
+               </object>
+              </void>
+              <void method="add">
+               <object class="Student" id="Student4">
+                <void property="GPA">
+                 <double>2.21</double>
+                </void>
+                <void property="courses">
+                 <void method="add">
+                  <object idref="Course0"/>
+                 </void>
+                 <void method="add">
+                  <object idref="Course1"/>
+                 </void>
+                </void>
+                <void property="firstName">
+                 <string>Ron</string>
+                </void>
+                <void property="lastName">
+                 <string>Weasley</string>
+                </void>
+                <void property="year">
+                 <int>2</int>
+                </void>
+               </object>
+              </void>
+             </void>
+            </object>
+           </void>
+          </void>
+          <void property="firstName">
+           <string>Hermione</string>
+          </void>
+          <void property="lastName">
+           <string>Granger</string>
+          </void>
+          <void property="year">
+           <int>2</int>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object idref="Student0"/>
+        </void>
+        <void method="add">
+         <object idref="Student4"/>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object idref="Course1"/>
+     </void>
+    </void>
+    <void property="firstName">
+     <string>Harry</string>
+    </void>
+    <void property="lastName">
+     <string>Potter</string>
+    </void>
+    <void property="year">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Student4"/>
+  </void>
+  <void method="add">
+   <object idref="Student2"/>
+  </void>
+  <void method="add">
+   <object idref="Student3"/>
+  </void>
+  <void method="add">
+   <object idref="Student1"/>
+  </void>
+ </object>
+</java>
